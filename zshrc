@@ -63,3 +63,12 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+# RVM
+[[ -s '/Users/camwest/.rvm/scripts/rvm' ]] && source '/Users/camwest/.rvm/scripts/rvm'
+
+# ANT
+export ANT_OPTS="-Xms256m -Xmx1024m -XX:MaxPermSize=512m"
+
+# CHILLLY
+export COUCH_SECRET="BETn1*:#DwgO|~}TL^xc-0Z5I00waiOC7lcla{YR3z6da4(o9m"
